@@ -1,7 +1,7 @@
 #!/bin/sh 
 DEMO="Baggage Delivery Demo"
 AUTHORS="Jason Milliron, Andrew Block, Eric D. Schabell"
-PROJECT="git@github.com:eschabell/bpms-baggage-delivery-demo.git"
+PROJECT="git@github.com:effectivebpmwithjbossbpm/bpms-baggage-delivery-demo.git"
 PRODUCT="JBoss BPM Suite"
 JBOSS_HOME=./target/jboss-eap-7.0
 SERVER_DIR=$JBOSS_HOME/standalone/deployments/
