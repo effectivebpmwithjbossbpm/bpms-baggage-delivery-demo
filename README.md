@@ -90,7 +90,7 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.6 - Forked back from JBoss Demo Central for updating to JBoss BPM Suite 6.4.0, JBoss EAP 7.0.0, baggage delivery demo installed locally, containerized or on any OpenShift installation.
+- v1.6 - Forked back from JBoss Demo Central for updating to JBoss BPM Suite 6.4.0, JBoss EAP 7.0.0, baggage delivery demo installed locally or containerized.
 
 - v1.5 - JBoss BPM Suite 6.2.0-BZ-1299002 on JBoss EAP 6.4.4 and baggage delivery demo installed.
 
