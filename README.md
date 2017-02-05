@@ -44,7 +44,7 @@ The following steps can be used to configure and run the demo in a container
 	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/bpms-baggage-delivery-demo
 	```
 
-Login to http://localhost:8080/business-central (u:erics / p:bpmsuite1!)
+Login to http://DOCKER_HOST:8080/business-central (u:erics / p:bpmsuite1!)
 
 
 Running the demo
