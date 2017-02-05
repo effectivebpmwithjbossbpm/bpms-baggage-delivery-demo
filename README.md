@@ -8,7 +8,7 @@ There are three options available to you for using this demo; local or container
 
 Option 1 - Install on your machine
 ----------------------------------
-1. [Download and unzip.](https://github.com/eschabell/bpms-baggage-delivery-demo/archive/master.zip)
+1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/bpms-baggage-delivery-demo/archive/master.zip)
 
 2. Add products to installs directory. For example download and add BPMS installer jar into the installs directory.
 
@@ -27,7 +27,7 @@ Option 2 - Generate containerized installation
 ----------------------------------------------
 The following steps can be used to configure and run the demo in a container
 
-1. [Download and unzip.](https://github.com/eschabell/bpms-baggage-delivery-demo/archive/master.zip)
+1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/bpms-baggage-delivery-demo/archive/master.zip)
 
 2. Add products to installs directory. For example download and add BPMS installer jar into the installs directory.
 
@@ -36,12 +36,12 @@ The following steps can be used to configure and run the demo in a container
 4. Build demo image.
 
 	```
-	docker build -t eschabell/bpms-baggage-delivery-demo .
+	docker build -t effectivebpmwithjbossbpm/bpms-baggage-delivery-demo .
 	```
 5. Start demo container.
 
 	```
-	docker run -it -p 8080:8080 -p 9990:9990 eschabell/bpms-baggage-delivery-demo
+	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/bpms-baggage-delivery-demo
 	```
 
 Login to http://localhost:8080/business-central (u:erics / p:bpmsuite1!)
@@ -104,6 +104,6 @@ See the tagged releases for the following versions of the product:
 
 - v1.0 - JBoss BPM Suite 6.0.3 and baggage delivery demo installed.
 
-![Baggage Process](https://github.com/eschabell/bpms-baggage-delivery-demo/blob/master/docs/demo-images/baggage-process.png?raw=true)
+![Baggage Process](https://github.com/effectivebpmwithjbossbpm/bpms-baggage-delivery-demo/blob/master/docs/demo-images/baggage-process.png?raw=true)
 
-![Lost Form](https://github.com/eschabell/bpms-baggage-delivery-demo/blob/master/docs/demo-images/baggage-lost-form.png?raw=true)
+![Lost Form](https://github.com/effectivebpmwithjbossbpm/bpms-baggage-delivery-demo/blob/master/docs/demo-images/baggage-lost-form.png?raw=true)
