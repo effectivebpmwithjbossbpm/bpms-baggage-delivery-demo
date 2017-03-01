@@ -41,10 +41,31 @@ The following steps can be used to configure and run the demo in a container
 5. Start demo container.
 
 	```
-	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/bpms-baggage-delivery-demo
+	docker run -it -p 8080:8080 -p 9990:9990 -p 8001:8001 effectivebpmwithjbossbpm/bpms-baggage-delivery-demo
 	```
 
-Login to http://DOCKER_HOST:8080/business-central (u:erics / p:bpmsuite1!)
+Login to http://localhost:8080/business-central (u:erics / p:bpmsuite1!)
+
+Read-write access to container JBoss BPM Suite git repo is available through ssh:
+
+   ```
+   $ git clone ssh://erics@localhost:8001/BagService
+
+   Cloning into 'BagService'...
+   The authenticity of host '[localhost]:8001 ([::1]:8001)' can't be established.
+   DSA key fingerprint is SHA256:ok9ukS2j16
+   Are you sure you want to continue connecting (yes/no)? yes
+
+   Warning: Permanently added '[localhost]:8001' (DSA) to the list of known hosts.
+   Password authentication
+   Password: bpmsuite1!
+
+   Receiving objects: 100% (1465/1465), 226.80 KiB | 0 bytes/s, done.
+   remote: Total 1465 (delta 0), reused 1465 (delta 0)
+   Resolving deltas: 100% (694/694), done.
+   ```
+
+
 
 
 Running the demo
